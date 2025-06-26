@@ -18,11 +18,11 @@
     border: solid 2px;
     display: block;
     width: 100%;
-    margin-left: 0;;
+    margin-left: 0;
 }
 
-h3 {
-    margin: 5px;
+h2 {
+    margin: 20px 5px;
 
 }
 
@@ -57,7 +57,51 @@ h3 {
 }
 
 /*Font*/
+.font {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
 
+.font div {
+    width: 350px;
+    margin: 20px 10px;;
+}
+
+.font p {
+    margin: 20px 10px;;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.monospace {
+    font-family: "monospace";
+}
+
+.verdana {
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+}
 
 
 /*Text*/
+.text {
+    margin: 2px;
+}
+
+.part {
+    margin: 20px 5px;
+}
+
+ul {
+    margin: 0;
+}
+
+ul {
+
+}
